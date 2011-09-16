@@ -1,0 +1,10 @@
+[core]
+  excludesfile = ~/.gitignore
+[user]
+	name = Schuyler Ullman
+	email = schuyler.ullman@gmail.com
+[github]
+	user = sullman
+	token = 027c81895ef95c625e8d8c8bf895d6e3
+[alias]
+  ff = pull --ff-only

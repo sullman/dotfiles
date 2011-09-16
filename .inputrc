@@ -1,0 +1,3 @@
+set bell-style none
+set mark-directories On
+set mark-symlinked-directories On

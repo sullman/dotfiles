@@ -1,0 +1,17 @@
+[alias]
+
+latest = log --limit 5
+
+[auth]
+
+bitbucket.prefix = bitbucket.org
+bitbucket.username = shumanity
+
+[ui]
+
+username = Schuyler Ullman <schuyler.ullman@gmail.com>
+ssh = ssh -C
+
+[web]
+
+cacerts = /etc/hg-dummy-cert.pem
