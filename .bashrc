@@ -28,7 +28,7 @@ export HISTCONTROL=ignoreboth
 # There's no implicit * on HISTIGNORE patterns
 export HISTIGNORE="&:ls:exit:cd:vim"
 export HISTSIZE=3000
-export PATH="~/bin:$PATH"
+export PATH="~/bin:~/scripts:$PATH"
 export PS1="${debian_chroot:+($debian_chroot)}\[\e]0;\w\a\]\n\[\e[32m\]\u@\h \[\e[33m\]\w\[\e[0m\]\n\$"
 
 # cvs for blackhawk
