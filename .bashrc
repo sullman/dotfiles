@@ -35,7 +35,8 @@ export PS1="${debian_chroot:+($debian_chroot)}\[\e]0;\w\a\]\n\[\e[32m\]\u@\h \[\
 export CVSROOT=:pserver:schuyler.ullman@75.25.154.201:2401/Blackhawk
 
 # perforce
-export P4CONFIG=.p4config
+export P4CONFIG=P4ENV
+export P4PORT=perforce.ironport.com:1670
 
 if [ -f ~/local.bashrc ]; then
   . ~/local.bashrc
