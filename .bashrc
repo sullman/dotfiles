@@ -37,3 +37,6 @@ export CVSROOT=:pserver:schuyler.ullman@75.25.154.201:2401/Blackhawk
 if [ -f ~/local.bashrc ]; then
   . ~/local.bashrc
 fi
+
+# perforce
+export P4CONFIG=.p4config
