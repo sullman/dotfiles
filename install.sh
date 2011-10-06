@@ -7,7 +7,7 @@ mkdir $BACKUPDIR
 for each in `ls -Fd .* | grep -v /`;
 do
   echo "Copying $each to ~/"
-  if [ -f "~/$each" ]; then
+  if [ -f ~/$each ]; then
     mv ~/$each $BACKUPDIR/
   fi
   cp -n $each ~/$each
