@@ -36,7 +36,7 @@ export CVSROOT=:pserver:schuyler.ullman@75.25.154.201:2401/Blackhawk
 
 # perforce
 export P4CONFIG=P4ENV
-export P4PORT=perforce.ironport.com:1670
+export P4PORT=perforce.ironport.com:1666
 
 if [ -f ~/local.bashrc ]; then
   . ~/local.bashrc
