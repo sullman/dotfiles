@@ -11,3 +11,8 @@ export PATH="$M2:$PATH"
 
 # git
 export PATH="/usr/local/git/bin:$PATH"
+
+# Narwhal
+export NARWHAL_ENGINE=jsc
+export PATH="/usr/local/narwhal/bin:$PATH"
+export CAPP_BUILD="/private/tmp/Build"
