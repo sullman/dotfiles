@@ -21,6 +21,7 @@ alias md5sum="openssl md5"
 alias base64='echo -e "Base 64 Encode: openssl enc -d -a\nBase 64 Decode: openssl enc -e -a"'
 alias pms="cd ~/plex/plex-media-server"
 alias plexkit="cd ~/plex/plex-media-server-webkit"
+alias dl='$(which wget || echo "curl -O")'
 
 export EDITOR=/usr/bin/vim
 export INPUTRC=~/.inputrc
