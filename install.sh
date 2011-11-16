@@ -14,3 +14,5 @@ do
 done
 
 cp -r scripts ~/
+
+cp -r .vim ~/
