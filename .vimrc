@@ -39,6 +39,9 @@ autocmd FileType make set noexpandtab
 autocmd FileType java set shiftwidth=4
 autocmd FileType java set softtabstop=4
 autocmd FileType java set smarttab
+autocmd FileType java set cindent
 
 autocmd FileType cpp set cindent
 autocmd FileType c set cindent
+
+autocmd FileType objj set autoindent
