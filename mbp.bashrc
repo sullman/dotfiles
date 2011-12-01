@@ -16,3 +16,6 @@ export PATH="/usr/local/git/bin:$PATH"
 export NARWHAL_ENGINE=jsc
 export PATH="/usr/local/narwhal/bin:$PATH"
 export CAPP_BUILD="/private/tmp/Build"
+
+# Roku
+export ROKU_DEV_TARGET=10.0.1.22

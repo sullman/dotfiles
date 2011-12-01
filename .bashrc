@@ -7,6 +7,7 @@ alias :q=' echo "You are not in vim!"'
 alias jfind="find . -not -path '*build/*' -name"
 #alias jgrep="grep -lr --include=*.java"
 alias jgrep="grep -lr --include=*.java --exclude-dir=build"
+alias ojgrep="grep -lr --include=*.j --exclude-dir=Build"
 alias pygrep="grep -lr --include=*.py"
 alias hgrep="grep -lr --include=*.html"
 alias ijgrep="grep -lri --include=*.java"
