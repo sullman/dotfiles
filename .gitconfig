@@ -1,5 +1,6 @@
 [core]
   excludesfile = ~/.gitignore
+  attributesfile = ~/.gitattributes
 [user]
 	name = Schuyler Ullman
 	email = schuyler.ullman@gmail.com
@@ -8,3 +9,5 @@
 	token = 027c81895ef95c625e8d8c8bf895d6e3
 [alias]
   ff = pull --ff-only
+[diff "utf16"]
+  textconv = iconv -f utf-16 -t utf-8
