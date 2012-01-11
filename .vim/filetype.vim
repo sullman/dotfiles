@@ -7,6 +7,7 @@ let did_custom_filetypes = 1
 augroup filetypedetect
   au BufNewFile,BufReadPost *.brs setf brs
   au BufNewFile,BufReadPost *.j setf objj
+  au BufNewFile,BufReadPost *.log setf log
 augroup END
 
 " HTML (.shtml and .stm for server side)
