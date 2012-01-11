@@ -15,9 +15,10 @@ syn keyword logTodo TODO SCHUYLER
 syn match logDate /\w\{3,4} \d\+, \d\+ \d\d:\d\d:\d\d/ contained
 syn match logThread /0x[0-9a-f]\{8}/ contained
 
-syn region logProlog start=+^+ end=+-\|$+ contains=logOperator,logDebug,logInfo,logWarn,logError,logFatal,logDate,logThread
+syn region logProlog start=+^+ end=+-+ keepend contains=logOperator,logDebug,logInfo,logWarn,logError,logFatal,logDate,logThread
 
 hi link logOperator Operator
+hi link logProlog Comment
 hi link logDate Comment
 hi link logThread Constant
 hi link logDebug Identifier
