@@ -3,6 +3,7 @@ set ic
 set smartcase
 set ruler
 set showmatch
+set nowrap
 
 " These should be overwritten for known filetypes...
 set shiftwidth=2
@@ -16,7 +17,7 @@ set cursorline
 set noerrorbells visualbell t_vb=
 
 syntax on
-colo desert
+colo darkblue " desert and darkblue both work pretty well...
 
 filetype on
 
