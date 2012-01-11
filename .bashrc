@@ -43,3 +43,7 @@ export P4PORT=perforce.ironport.com:1666
 if [ -f ~/local.bashrc ]; then
   . ~/local.bashrc
 fi
+
+# todo.txt
+export PATH="$PATH:~/todo.txt_cli"
+alias todo='todo.sh -A -t -n'
