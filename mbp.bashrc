@@ -17,5 +17,7 @@ export NARWHAL_ENGINE=jsc
 export PATH="/usr/local/narwhal/bin:$PATH"
 export CAPP_BUILD="/private/tmp/Build"
 
+alias log='vim -R ~/Library/Logs/Plex\ Media\ Server.log'
+
 # Roku
 export ROKU_DEV_TARGET=10.0.1.22

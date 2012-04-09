@@ -4,6 +4,7 @@ set smartcase
 set ruler
 set showmatch
 set nowrap
+set autoindent
 
 " These should be overwritten for known filetypes...
 set shiftwidth=2
@@ -33,8 +34,8 @@ autocmd FileType python set autoindent
 autocmd FileType htmldjango set autoindent
 autocmd FileType htmldjango set smarttab
 
-autocmd FileType make set shiftwidth=4
-autocmd FileType make set softtabstop=4
+autocmd FileType make set shiftwidth=8
+autocmd FileType make set softtabstop=8
 autocmd FileType make set noexpandtab
 
 autocmd FileType java set shiftwidth=4
@@ -47,3 +48,10 @@ autocmd FileType cpp set cindent
 autocmd FileType c set cindent
 
 autocmd FileType objj set autoindent
+
+autocmd FileType brs set shiftwidth=4
+autocmd FileType brs set softtabstop=4
+autocmd FileType brs set tabstop=4
+autocmd FileType brs set smarttab
+autocmd FileType brs set smartindent cinwords=if,else,for,while,Function
+autocmd FileType brs set autoindent
