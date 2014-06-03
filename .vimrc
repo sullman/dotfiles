@@ -55,3 +55,10 @@ autocmd FileType brs set tabstop=4
 autocmd FileType brs set smarttab
 autocmd FileType brs set smartindent cinwords=if,else,for,while,Function
 autocmd FileType brs set autoindent
+
+" Whitelisted local vimrc files
+let g:localvimrc_whitelist = "^/Users/sullman/plex/"
+"let g:localvimrc_sandbox = 0
+
+" Pathogen
+call pathogen#infect()

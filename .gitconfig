@@ -1,6 +1,7 @@
 [core]
   excludesfile = ~/.gitignore
   attributesfile = ~/.gitattributes
+	trustctime = false
 [user]
 	name = Schuyler Ullman
 	email = schuyler.ullman@gmail.com
@@ -11,3 +12,7 @@
   ff = pull --ff-only
 [diff "utf16"]
   textconv = iconv -f utf-16 -t utf-8
+[branch]
+	autosetuprebase = always
+[push]
+	default = upstream

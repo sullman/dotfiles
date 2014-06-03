@@ -67,15 +67,20 @@ alias urlencode="perl -MURI::Escape -pe 'chomp; \$_ = uri_escape(\$_);'"
 alias md5sum="openssl md5"
 alias diskusage="du -h -s * | sort -n"
 
+alias plexdb="sqlite3 ~/Library/Application\ Support/Plex\ Media\ Server/Plug-in\ Support/Databases/com.plexapp.plugins.library.db"
+
 export EDITOR=/usr/bin/vim
 
-export ROKU_DEV_TARGET=10.0.1.19
+export ROKU_DEV_TARGET=192.168.1.113
+export ROKU1=10.0.1.3
+export ROKU2=10.0.1.2
+export ROKU3=10.0.1.19
 
 # myPlex tokens
-TOKEN_DEV=TbiMhpPpERZFq3wvtRVE
+TOKEN_DEV=L3dzYbqr6asm3qSLdn9c
 TOKEN_STAGING=2etr6gsWc8K6HxvhQp2q
 TOKEN_PROD=tPrixzdNbNwY5CRRvA2X
 
 # Customize to your needs...
-#export PATH=$PATH:/blah
+export PATH=$PATH:~/Dropbox/scripts:~/bin:~/scripts
 
