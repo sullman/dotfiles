@@ -1,1 +1,15 @@
 Personal dotfiles
+
+# Install instructions
+
+Generally speaking, copy everything to `~/`. There's an install.sh script
+that isn't maintained but tried to be a bit more thorough. To install the
+zsh theme, copy it to `~/.oh-my-zsh/themes/`.
+
+## Terminal Settings
+
+Homebrew
+Change text colors to silver (Crayons palette)
+Close if the shell exited cleanly
+Disable audible bell
+
